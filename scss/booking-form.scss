@@ -1,0 +1,255 @@
+//Booking Form from homepage//
+
+.booking-title {
+    font-size: 60px;
+    padding-left: 231px;
+    padding-top: 12px;
+    transform: none;
+    margin: 40px 10px 20px 120px;
+    text-transform: none;
+ }
+
+ .booking-holder {
+    width: 818px;
+    height: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+ 
+    .top-left {
+        width: 344px;
+        height: 138px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+    
+        
+        .form-med {
+        width: 344px;
+        height: 58px;
+        background-color: #ffffff;
+        border: #79addc solid 1px;
+        padding: 10px;
+        margin-left: 20px;
+    }
+
+    .top-right {
+        width: 453px;
+        height: 138px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+        .form-lg {
+        width: 453px;
+        height: 58px;
+        background-color: #ffffff;
+        border: #79addc solid 1px;
+        padding: 10px;  
+        margin-left: 20px;  
+            }
+  
+        }
+    
+    .middle-form {
+        width: 818px;
+        height: auto;
+        // background-color: aqua;
+        margin-top: 20px;
+        margin-left: 20px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+
+        label {
+                margin-right: 55px; 
+                color: #000000; 
+                margin-top: 16px;   
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+            }
+
+        input {
+            max-width: 80%;
+        }
+        }
+    }
+        .date-checkout {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+
+        
+        
+            label {
+                margin-right: 45px;     
+                color: #000000;
+                margin-top: 16px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+        }
+   
+     .form-date {
+       width: 675px;
+        height: 58px;
+        background-color: #ffffff;
+        border: #79addc solid 1px;
+        margin-bottom: 20px;
+        flex-direction: column;
+        display: inline;
+        padding: 10px;
+ 
+    }
+
+    .inParty-roomsBooked {
+        width: 818px;
+        height: auto;
+        // background-color: palevioletred;
+        color: #000000;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        margin: 0 0 20px 0;
+
+        label {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+    
+        #adultsInParty, 
+        #childrenInParty,
+        #roomsBooked {
+            width: 103px;
+            height: 58px;
+            text-align: center;
+            border: #79addc solid 1px;
+    
+        }
+    
+    }
+    .message-area {
+        max-width: 818px;
+        height: 192px;
+       input {
+            width: 818px;
+            height: 192px;
+            border: #79addc solid 1px;
+        }    
+    }
+    .submit-button {
+        width: 813px;
+        height: 60px;
+        background-color: #79addc;
+        color: #ffffff;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-top: 18px;
+        border-radius: 30px;
+        margin: 37px 0 100px 0;
+    }
+
+
+@media only screen and (max-width: 830px) {
+    .booking-title {
+     
+        padding-left: 2px;
+        padding-top: 12px;
+     }
+     .booking-holder {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+       flex-direction: column; 
+     
+    .top-left {
+
+        width: 80%;
+        height: 138px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+    
+        
+        .form-med {
+        width: 100%;
+        height: 58px;
+        background-color: #ffffff;
+        border: #79addc solid 1px;
+        padding: 10px;
+        }
+
+    .top-right {
+        width: 80%;
+        height: 138px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+        .form-lg {
+        width: 100%;
+        height: 58px;
+        background-color: #ffffff;
+        border: #79addc solid 1px;
+        padding: 10px;    
+            }
+
+        .middle-form {
+            width: 50%;
+            height: auto;
+            background-color: red;
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+
+            .check-in {
+                input .form-date {
+                width: 120px;
+                height: auto;
+                flex-direction: column;
+                margin-bottom: 20px;
+                }
+            }
+        
+                }
+            }
+        }
+        .inParty-roomsBooked {
+            width: 420px;
+            height: auto;
+             flex-direction: column;
+             margin-bottom: 20px;
+        }
+        .message-area {
+            max-width: 95%;
+            height: 122px;
+            margin-bottom: 100px;
+            margin-left: 12px;
+
+
+            
+           input {
+                width: 95%;
+                height: 98px;
+                border: #79addc solid 1px;
+                margin-bottom: 37px;
+                
+            }    
+        }
+        .submit-button {
+            width: 64%;
+            height: 60px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 835px;
+            margin-bottom: 120px;
+
+        }
+}

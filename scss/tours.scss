@@ -1,0 +1,180 @@
+.nav-placeholder-tours {
+    height: 201px;
+    width: 980px;
+    // background-color: crimson;
+
+}
+.page-title {
+    font-size: 60px;
+    max-width: 981px;
+    height: 200px;
+    background-image: url(../images/76fb267b620388f239c4e478d18efb70.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 49px;
+    .overlay {
+        width: 981px;
+        height: 200px;
+        background-color: rgba($color: #000000, $alpha: 0.5);
+        color: #ffffff;
+        text-align: center;
+        padding-top: 50px;
+ 
+    }
+
+}
+.tours-container {
+    max-width: 822px;
+    height: auto;
+    // background-color: aquamarine;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+.tour {
+    width: 236px;
+    height: 304px;
+    background-color: cadetblue;
+    margin-bottom: 40px;
+
+
+
+    .overlay-tour {
+        width: 236px;
+        height: 304px;
+        background-color: rgba($color: #000000, $alpha: 0.5);
+        color: #ffffff;
+        text-align: center;
+        padding-top: 37px;
+   
+        .tour-title {
+            font-size: 60px;
+            color: #ffffff;
+            margin-bottom: 10px;
+        }
+   
+        .tour-price {
+            font-size: 30px;
+            color: #ffffff;
+            margin-top: -30px;
+            margin-bottom: 37px;
+        }
+
+        .trip-button {
+            width: 133px;
+            height: 40px;
+            background-color: #79addc;
+            border-radius: 30px;
+            // border: solid 1px #79addc;
+            color: #ffffff;
+            // padding-top: 3px;
+            margin: 0 auto;
+            margin-bottom: 57px;
+            }
+        }
+    }
+}
+
+.israel {
+    background-image: url(../images/tour-01.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.usa {
+    background-image: url(../images/tour-02.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.aus {
+    background-image: url(../images/tour-03.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.nz {
+    background-image: url(../images/tour-04.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.france {
+    background-image: url(../images/tour-05.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;    
+}
+.egypt {
+    background-image: url(../images/tour-06.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.japan {
+    background-image: url(../images/tour-07.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.canada {
+    background-image: url(../images/tour-08.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.uae {
+    background-image: url(../images/tour-09.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+@media only screen and (max-width: 840px) {
+    .wrapper, nav, .nav-placeholder-tours, .page-title, .tours-container  {
+        max-width: 527px;
+        margin: 10px auto;
+        .tour {
+            margin-bottom: 20px;
+            margin: 0 auto;
+        }
+    }
+    footer {
+        max-width: 80%;
+    
+    }
+
+
+
+@media only screen and (max-width: 615px) {
+
+     .page-title, .tours-container  {
+        max-width: 327px;
+
+        .tour {
+            margin: 0 auto;
+            margin-bottom: 15px;
+
+        }
+    }
+    footer {
+        max-width: 80%;
+          
+    }
+
+}
+
+
+
+
+
+
+
+}

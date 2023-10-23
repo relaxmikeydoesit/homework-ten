@@ -1,0 +1,66 @@
+"name": "Travel-Fly",
+"short_name": "TravelFly",
+"start_url": "index.html",
+"background_color": "#FFFFFF",
+"theme_color": "#00c0ff",
+"display": "standalone",
+"orientation": "portrait-primary",
+"icons": [
+  {
+    "src": "images/icon36.png",
+    "sizes": "36x36",
+    "type": "image/png"
+  },
+  {
+    "src": "images/icon48.png",
+    "sizes": "48x48",
+    "type": "image/png"
+  },
+  {
+    "src": "images/icon60.png",
+    "sizes": "60x60",
+    "type": "image/png"
+  },
+  {
+    "src": "images/icon72.png",
+    "sizes": "72x72",
+    "type": "image/png"
+  },
+  {
+    "src": "images/icon76.png",
+    "sizes": "76x76",
+    "type": "image/png"
+  },
+  {
+    "src": "images/icon96.png",
+    "sizes": "96x96",
+    "type": "image/png"
+  },
+  {
+    "src": "images/icon120.png",
+    "sizes": "120x120",
+    "type": "image/png"
+  },
+  {
+    "src": "images/icon152.png",
+    "sizes": "152x152",
+    "type": "image/png"
+  },
+  {
+    "src": "images/icon180.png",
+    "sizes": "180x180",
+    "type": "image/png"
+  },
+  {
+    "src": "images/icon192.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  },
+  {
+    "src": "images/icon512.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }
+],
+}
+
